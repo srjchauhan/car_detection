@@ -36,17 +36,17 @@ item {
 
 ```
 
-I have taken pretrained weighted STOA model EfficientDet D1 640x640 from [TensorFlow 2 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
+I have taken pretrained STOA model EfficientDet D1 640x640 from [TensorFlow 2 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
 
 
-Real beauty of choosing TensorFlow Object Detection API is that we canchoose to do transfer learning from any of STOA model available in TensorFlow 2 Detection Model Zoo.
+Real beauty of choosing TensorFlow Object Detection API is that we can choose to do transfer learning from any of STOA model available in TensorFlow 2 Detection Model Zoo.
 
 ## The Steps
 ### Git clone the repo
 ```
 https://github.com/srj-surajchauhan/car_detection_pract.git
 ```
-This should clone all the files in a directory called car_detection_pract.
+This should clone all the files in a directory called car_detection.
 
 Go to  project directory:
 ```
@@ -69,7 +69,7 @@ Install dependencies with
 pip3 install requirment.txt
 ```
 
-Then, your directory structure should look something like this
+Then, your directory structure should look something like this:
 
 ```
 TensorFlow/
@@ -82,18 +82,18 @@ TensorFlow/
 └─ scripts/
 └─ workspace/
 ```
-After we have setup the directory structure, we must install the prequisites for the Object Detection API. First we need to install the protobuf compiler with
+After we have setup the directory structure, we must install the prequisites for the Object Detection API. First we need to install the protobuf compiler
 
 ```
 pip3 install protobuf
 sudo apt  install protobuf-compiler
 ```
-Then you should cd in to the TensorFlow\models\research directory with
+Then you should cd in to the TensorFlow\models\research directory
 
 ```
 cd models/research
 ```
-Then compile the protos with
+Then compile the protos
 
 ```
 protoc object_detection/protos/*.proto --python_out=.
