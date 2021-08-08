@@ -221,6 +221,7 @@ python3 exporter_main_v2.py --input_type image_tensor --pipeline_config_path ../
 But if this program finishes successfully, then model is finished! It should be located in the ```\workspace\training_demo\exported-models\my_model\saved_model``` folder. There should be an PB File called ```saved_model.pb```. This is the inference graph!
 
 
+
 ###Model inference:
 
 To test out your model, you can use the sample object detection script I provided called ```TF-image.py```. This should be located in ```workspace/training```.
