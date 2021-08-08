@@ -180,6 +180,9 @@ python TF_image.py --model=../exported-models/my_trained_model/ --labels=../data
 If everything works properly you should get an output similar to this
 <p align="center">
   <img src="workspace/image/test_output/mini_van43.jpg">
+<img src="workspace/image/test_output/MUV53.jpg">
+<img src="workspace/image/test_output/sedan14.jpeg">
+<img src="workspace/image/test_output/SUV111.jpeg">
 
 </p>
 
