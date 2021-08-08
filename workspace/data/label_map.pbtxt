@@ -1,0 +1,25 @@
+item {
+    name: "MUV",
+    id: 1,
+    display_name: "MUV"
+}
+item {
+    name: "SUV",
+    id: 2,
+    display_name: "SUV"
+}
+item {
+    name: "hatchback",
+    id: 3,
+    display_name: "hatchback"
+}
+item {
+    name: "mini van",
+    id: 4,
+    display_name: "mini van"
+}
+item {
+    name: "sedan",
+    id: 5,
+    display_name: "sedan"
+}
