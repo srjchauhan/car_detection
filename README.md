@@ -186,4 +186,5 @@ If everything works properly you should get an output similar to this
 
 </p>
 **these results are only based on half training of data**
+
 **we got are initial output but we can improve are accuracy by training on more data aswell as by choosing another initial pretrained weight if required.**
