@@ -150,7 +150,8 @@ OK (skipped=1)
 ```
 This means we successfully set up the  Directory Structure and TensorFlow Object Detection API. 
 
-###Configuring the Training Pipeline
+Configuring the Training Pipeline
+
 we will use a CONFIG File from one of the TensorFlow pre-trained models. There are plenty of models in the [TensorFlow Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md), but we will use the **EfficientDet D1 640x640**, as it is on the faster end of the spectrum with decent performance. If you want you can choose a different model, but you will have to alter the steps slightly.
 
 To download the model you want, just click on the name in the TensorFlow Model Zoo. This should download a tar.gz file. Once it has downloaded, extracts the contents of the file to the ```pre-trained-models``` directory.
@@ -194,7 +195,7 @@ INFO:tensorflow:Step 100 per-step time 0.640s loss=0.454
 I0810 11:56:12.520163 11172 model_lib_v2.py:644] Step 100 per-step time 0.640s loss=0.454
 ````
 
-###Training the Model:
+### Training the Model:
 
 To train the model run following:
 
@@ -222,7 +223,7 @@ But if this program finishes successfully, then model is finished! It should be 
 
 
 
-###Model inference:
+### Model inference:
 
 To test out your model, you can use the sample object detection script I provided called ```TF-image.py```. This should be located in ```workspace/training```.
 The usage of each program looks like 
