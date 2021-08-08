@@ -150,7 +150,7 @@ OK (skipped=1)
 ```
 This means we successfully set up the  Directory Structure and TensorFlow Object Detection API. 
 
-Configuring the Training Pipeline
+### Configuring the Training Pipeline
 
 we will use a CONFIG File from one of the TensorFlow pre-trained models. There are plenty of models in the [TensorFlow Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md), but we will use the **EfficientDet D1 640x640**, as it is on the faster end of the spectrum with decent performance. If you want you can choose a different model, but you will have to alter the steps slightly.
 
