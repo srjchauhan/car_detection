@@ -66,7 +66,7 @@ source venv/bin/activate
 Install dependencies with 
 
 ```
-pip3 install requirment.txt
+pip3 install -r requirements.txt
 ```
 
 Then, your directory structure should look something like this:
