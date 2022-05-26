@@ -50,7 +50,7 @@ This should clone all the files in a directory called car_detection.
 
 Go to  project directory:
 ```
-cd car_detection_pract/
+cd car_detection/
 ```
 
 
