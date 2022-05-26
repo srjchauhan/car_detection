@@ -44,7 +44,7 @@ Real beauty of choosing TensorFlow Object Detection API is that we can choose to
 ## The Steps
 ### Git clone the repo
 ```
-https://github.com/srj-surajchauhan/car_detection_pract.git
+git@github.com:srjchauhan/car_detection.git
 ```
 This should clone all the files in a directory called car_detection.
 
