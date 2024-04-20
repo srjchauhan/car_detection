@@ -157,7 +157,7 @@ we will use a CONFIG File from one of the TensorFlow pre-trained models. There a
 To download the model you want, just click on the name in the TensorFlow Model Zoo. This should download a tar.gz file. Once it has downloaded, extracts the contents of the file to the ```pre-trained-models``` directory.
 
 Then open up ```workspace/pre_trained_models/efficientdet_d1_coco17_tpu-32``` in a text editor because we need to make some changes.
-- Line 3. Change ```num_classes``` to the number of classes your model detects. For the basketball, baseball, and football, example you would change it to ```num_classes: 5```
+- Line 3. Change ```num_classes``` to the number of classes your model detects. For my case where I have 5 classes you would change it to ```num_classes: 5```
 - Line 135. Change ```batch_size``` according to available memory (Higher values require more memory and vice-versa). I changed it to:
   - ```batch_size: 6```
 - Line 165. Change ```fine_tune_checkpoint``` to:
